@@ -1,0 +1,23 @@
+{
+    "name": "dilneiss/credit-card-util",
+    "version": "v1.1.0",
+    "description": "Credit Card Utils",
+    "keywords": ["credit", "card", "creditcard", "brand", "php", "composer"],
+    "type": "library",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Dilnei Soethe Spancerski",
+            "email": "dilnei.soethe@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "CreditCardUtil": "src/"
+        }
+    }
+}
